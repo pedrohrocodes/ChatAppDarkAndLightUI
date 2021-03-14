@@ -1,3 +1,4 @@
+import 'package:chat_app/screens/chats/chat_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../components/primary_button.dart';
@@ -23,10 +24,10 @@ class SignInOrSignUpScreen extends StatelessWidget {
               ),
               Spacer(),
               PrimaryButton(
-                color: Theme.of(context).colorScheme.primary,
-                text: "Sign In",
-                press: () {},
-              ),
+                  color: Theme.of(context).colorScheme.primary,
+                  text: "Sign In",
+                  press: () => Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => ChatsScreen()))),
               SizedBox(height: kDefaultPadding),
               PrimaryButton(
                 color: Theme.of(context).colorScheme.secondary,
