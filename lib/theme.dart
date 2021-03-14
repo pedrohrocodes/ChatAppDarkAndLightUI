@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'constants.dart';
+import 'constants.dart';
 
 ThemeData lightThemeData(BuildContext context) {
   return ThemeData.light().copyWith(
@@ -26,7 +27,7 @@ ThemeData lightThemeData(BuildContext context) {
 ThemeData darkThemeData(BuildContext context) {
   return ThemeData.dark().copyWith(
       primaryColor: kPrimaryColor,
-      scaffoldBackgroundColor: kContentColorDarkTheme,
+      scaffoldBackgroundColor: kContentColorLightTheme,
       appBarTheme: appBarTheme,
       iconTheme: IconThemeData(color: kContentColorDarkTheme),
       textTheme: GoogleFonts.interTextTheme(Theme.of(context).textTheme)

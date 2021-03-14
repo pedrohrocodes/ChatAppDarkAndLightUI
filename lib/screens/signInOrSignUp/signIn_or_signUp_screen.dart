@@ -19,7 +19,7 @@ class SignInOrSignUpScreen extends StatelessWidget {
               Image.asset(
                 MediaQuery.of(context).platformBrightness == Brightness.light
                     ? "assets/images/Logo_light.png"
-                    : "assets/images/Log o_dark.png",
+                    : "assets/images/Logo_dark.png",
                 height: 146,
               ),
               Spacer(),
