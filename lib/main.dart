@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Chat App',
+      title: 'Chat Light/Dark UI App',
       debugShowCheckedModeBanner: false,
       theme: lightThemeData(context),
       darkTheme: darkThemeData(context),
