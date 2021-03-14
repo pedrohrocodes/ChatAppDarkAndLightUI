@@ -1,6 +1,6 @@
 import 'package:chat_app/theme.dart';
 import 'package:flutter/material.dart';
-import 'screens/welcome_screen.dart';
+import 'screens/welcome/welcome_screen.dart';
 
 void main() {
   runApp(MyApp());
